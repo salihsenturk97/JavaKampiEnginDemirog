@@ -18,8 +18,19 @@ public class Main {
 			System.out.println(instructor.surname);
 		}
 		System.out.println("---------------------------------");
-		Member member1 = new Member (1,"Ersin","Þentürk","ersinsenturk@gmail.com",123456);
-		Member member2 = new Member (2,"Çiðdem","Þentürk","cigdemsenturk@gmail.com",123456);
+		Member member1 = new Member();
+		member1.id=1;
+		member1.name="Ersin";
+		member1.surname="Þentürk";
+		member1.email="ersinsenturk@kodlama.io";
+		member1.password=123456;
+		
+		Member member2 = new Member();
+		member2.id=2;
+		member2.name="Çiðdem";
+		member2.surname="Þentürk";
+		member2.email="cigdemsenturk@kodlama.io";
+		member2.password=123456;
 			
 		Member[] members = { member1, member2 };
 		
