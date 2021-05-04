@@ -2,7 +2,6 @@ package entities;
 
 import java.util.Date;
 
-// TO DO : Classý çýplak býrakma!
 public class Customer {
 	 private int customerId;
      private String firstName;
