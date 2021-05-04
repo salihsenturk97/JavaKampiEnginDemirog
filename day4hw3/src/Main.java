@@ -15,8 +15,7 @@ public class Main {
 		Customer customer1 = new Customer(1,"Salih","Þentürk","41965640702",new Date(1997,1,31));
 		Customer customer2 = new Customer(2,"Engin","Demiroð","00000000000",new Date(1997,1,31));
 		
-		BaseCustomerManager neroCustomerManager = new NeroCustomerManager(new CustomerCheckManager());	
-		
+		BaseCustomerManager neroCustomerManager = new NeroCustomerManager(new CustomerCheckManager());			
 		BaseCustomerManager starbucksCustomerManager = new StarbuckCustomerManager(new MernisServiceAdapter());	
 		
 		Customer[] customers = { customer1, customer2 };	
