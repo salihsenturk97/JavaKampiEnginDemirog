@@ -32,7 +32,7 @@ public class GamerManager implements GamerService {
         if (verificationService.Verification(gamer) ==true){
             System.out.println(gamer.getFirstName() +" " + gamer.getLastName() + " adlý kullanýcý güncellendi.");
         }else{
-            System.out.println("Kullanýcý Güncellemedi");
+            System.out.println("Kullanýcý Güncellenemedi");
         }
 
     }
